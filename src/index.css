@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.action-btns
+{
+  @apply p-2 border-2 text-[#A082A7] border-[#A082A7] flex rounded-3xl items-center gap-2 font-semibold w-28 justify-center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
